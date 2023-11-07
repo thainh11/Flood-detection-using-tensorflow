@@ -23,13 +23,11 @@ In this project, we implement a flood detection system using deep learning model
 
 ## Features
 
-- **Data Integration:** Utilizes various data sources, including satellite imagery and weather data, to enhance flood detection accuracy.
+- **Data Preprocessing:** Reshape the image and take it to array.
 
-- **Deep Learning Models:** Implements state-of-the-art deep learning models for image analysis and prediction.
+- **Deep Learning Models:** In this project, i using ConvNeXtXLarge model fro keras and fine-tune it for the best performance.
 
-- **Real-time Monitoring:** Provides real-time monitoring and alerts for potential flood events.
-
-- **Scalable:** The system is designed to be scalable, allowing for the incorporation of additional data sources and models.
+- **Result:** Create a csv file to store the result from model.
 
 ## Prerequisites
 
@@ -38,7 +36,7 @@ Before you begin, ensure you have met the following requirements:
 - Python 3.6+
 - TensorFlow
 - NumPy
-- OpenCV (for image processing)
+- PIL (for image processing)
 - Additional libraries as specified in the project's requirements file
 
 ## Installation
@@ -49,19 +47,16 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/your-username/flood-detection-using-tensorflow.git
    ```
 
-2. Install the required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Run it on the kaggle plattform:
+   - Because of the problem about the device, i decide to run it on plattform for ML/DL.
 
 ## Usage
 
 1. To use this flood detection system, follow the steps mentioned in the project documentation or Jupyter notebooks if provided.
 
-2. Customize the system according to your specific use case and data sources.
+2. Customize the model according to your specific use case and data sources.
 
-3. Run the system to monitor and detect flood events.
+3. Run the file on kaggle.
 
 ## Contributing
 
@@ -74,7 +69,7 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## License
 
-This project is licensed under the [insert license here]. You can find more details in the [LICENSE](LICENSE) file.
+This project is licensed. You can find more details in the [LICENSE](LICENSE) file.
 
 ---
 
